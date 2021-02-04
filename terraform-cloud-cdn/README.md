@@ -46,8 +46,8 @@ Il sera aussi nécessaire d'avoir une zone DNS afin de créer les ressources DNS
 
 Pour cela, le candidat devra suivre la procédure suivante :
 - Sur GCP, dans Cloud DNS, cliquer sur "Create Zone"
-- Dans `Zone name`, renseignez `<prenom-candidat>-<nom-candidat>-lab-innovorder-io`
-- Dans `DNS name`, renseignez `<prenom-candidat>-<nom-candidat>.lab.innovorder.io`
+- Dans `Zone name`, renseignez `<prenom-candidat>-<nom-candidat>-lab-innovorder-dev`
+- Dans `DNS name`, renseignez `<prenom-candidat>-<nom-candidat>.lab.innovorder.dev`
 - Cliquez sur "Create"
 
 La zone devrait être créer. En cliquant dessus, vous devriez voir le `DNS name` renseigné et la donnée suivante :
