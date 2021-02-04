@@ -12,14 +12,25 @@ Voici quelques liens utiles pour commencer :
 
 ## Fonctionnalités du module
 
+### Fonctionnalités indispensables
+
 Le module doit avoir les fonctionnalités suivantes :
 - un bucket Cloud Storage en mode website qui contiendra les fichiers situé dans [templated-industrious](./templated-industrious) et qui doit rediriger toutes requêtes vers index.html (les fichiers peuvent être uploadés manuellement dans le bucket)
 - un Cloud CDN qui a pour backend le bucket
-- un HTTPS load balancer qui dirige vers ce CDN
-- un HTTP load balancer qui servira à faire de la redirection HTTP vers HTTPS
+- un HTTP load balancer qui utilisera le bucket comme backend
 - un DNS qui pointera en Alias vers ce loadbalancer
 
-Il doit prendre en entrée deux variables :
+### Amélioration du module
+
+- Transformer le load balancer en un HTTPS load balancer avec un certificat SSL managé par GCP
+
+### Points bonus
+
+- Ajouter un HTTP loadbalancer qui servira pour faire de la redirection HTTP vers HTTPS
+
+## Variables du modules
+
+Le module doit prendre en entrée deux variables :
 - `dns_name` : qui sera le nom du dns à créer
 - `google_dns_managed_zone_name`: qui sera le nom de la zone DNS dans laquelle le DNS devra être créer
 
