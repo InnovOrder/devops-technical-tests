@@ -24,7 +24,7 @@ S'il y a un quelconque problème de compréhension du test ou de ce qu'il doit f
 
 Pour noter le projet réalisé par le candidat, quatre critères sont importants, chacun d'une importance équivalente :
 - Fonctionnalité : le projet doit remplir toutes les fonctionnalités demandées par le test
-- Structure : le projet doit être lisible, bien structuré et possédé les nomenclatures standards des langages utilisés
+- Structure : le projet doit être lisible, bien structuré et doit posséder les nomenclatures standards des langages utilisés
 - Documentation : le projet doit être bien documenté et on doit pouvoir l'utiliser uniquement en lisant la documentation
 - Restitution : le candidat doit pouvoir présenter de manière claire et synthétique son projet en expliquant les choix qu'il a fait
 
