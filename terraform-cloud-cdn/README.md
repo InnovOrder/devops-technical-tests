@@ -50,7 +50,7 @@ Pour cela, le candidat devra suivre la procédure suivante :
 - Dans `DNS name`, renseignez `<prenom-candidat>-<nom-candidat>.lab.innovorder.dev`
 - Cliquez sur "Create"
 
-La zone devrait être créer. En cliquant dessus, vous devriez voir le `DNS name` renseigné et la donnée suivante :
+La zone devrait être créée. En cliquant dessus, vous devriez voir le `DNS name` renseigné et la donnée suivante :
 ```
 ns-cloud-AA.googledomains.com.
 ns-cloud-BB.googledomains.com.
